@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+	font-family: 'Shadows Into Light', cursive;
+	background: url(header-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+nav ul {
+	list-style-type: none;
+	text-decoration: none;
+	overflow: hidden;
+	margin: 1rem 4rem 2rem 2.1rem;
+}
+
+li a {
+	display: block;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 2rem;
+	color: teal;
+	padding: 1rem;
+}
+
+li {
+	float: right;
+}
+
+#logo {
+	float: left;
+}
+
+main {
+	color: teal;
+	text-align: center;
+}
+
+.section-1 {
+	margin: auto;
+	min-width: 200px;
+	min-height: 300px;
+}
+
+.section-1 h1 {
+	font-size: 3.2rem;
+	letter-spacing: 0.2em;
+	padding-bottom: 5%;
+}
+
+.section-2 {
+	
+	width: 50%;
+	margin-left: 25%;
+}
+
+.soundcloud {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+iframe {
+	
+	max-height: 320px;
+}
